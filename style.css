@@ -1,0 +1,49 @@
+.barra-padre {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.carrito-logo {
+    display: flex;
+    margin: 10px;
+}
+
+section {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.presentación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles-compras {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.categorias-puntaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-tarjetas {
+    background-color: yellow;
+    width: 650px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-tarjetas > div {
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px;
+    flex: 1 1 200px;
+}
